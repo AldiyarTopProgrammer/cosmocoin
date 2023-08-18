@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&family=Open+Sans:wght@300&display=swap');
+body {
+    background-color:darkgray;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 80%;
+    height: 80px;
+    background-color:black;
+    margin: 5px;
+    margin-left: 8%;
+    position: absolute;
+}
+.logo a{
+    font-size: 19px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 150px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.auth {
+    margin-top: 5px;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+.auth a {
+    list-style:none;
+    text-decoration: underline;
+    color:white;
+
+}
+
+.auth a:hover {
+    color: blue;
+    transition: all 500ms ease;
+}
+
+.topMenu ul {
+    padding: 5px;
+    position: relative;
+}
+.topMenu ul li {
+    list-style: none;
+    margin-top: 4px;
+    position: relative;
+}
+.topMenu ul li a {
+    color: white;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+.topMenu ul li a:hover {
+    color: black;
+    background-color: blue;
+    transition: all 500ms ease;
+}
+
+
+
+.menu {
+    display: flex;
+    
+}
+.menu ul {
+    position: absolute;
+    left: 1;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.692);
+    width:115px;
+    display: none;    
+}
+.menu ul li a{
+    font-size: 17px;
+}
+
+.menu li a:hover ul{
+    position: relative;
+    display: block;
+}
+
